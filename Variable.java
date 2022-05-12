@@ -1,4 +1,4 @@
-public class LearnJava {
+public class Variable {
     public static void learnVariable(String[] args) {
         int n = 100; // 定义变量n，同时赋值为100
         System.out.println("n = " + n); // 打印n的值
@@ -18,6 +18,11 @@ public class LearnJava {
         int n = 7 * (5 + (i - 9)); // 23072
         System.out.println(i);
         System.out.println(n);
+    }
+    public static void main1(String[] args) {
+        int i = 167776589; // 00001010 00000000 00010001 01001101
+        int n = 167776512; // 00001010 00000000 00010001 00000000
+        System.out.println(i & n); // 167776512
     }
 }
 
